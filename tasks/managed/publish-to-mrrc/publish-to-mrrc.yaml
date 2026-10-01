@@ -142,7 +142,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: prepare-repo
-      image: quay.io/konflux-ci/release-service-utils@sha256:f5e7b305ba8e30dc066c24025c98287952ba98023f37512c7539cfd5330c8b77
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 256Mi
@@ -294,7 +294,7 @@ spec:
         - name: mrrc-workdir
           mountPath: "/var/workdir/mrrc"
     - name: push-merged-maven-repo-to-registry
-      image: quay.io/konflux-ci/release-service-utils@sha256:f5e7b305ba8e30dc066c24025c98287952ba98023f37512c7539cfd5330c8b77
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 1Gi

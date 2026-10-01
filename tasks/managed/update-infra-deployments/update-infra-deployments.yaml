@@ -132,7 +132,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: update-infra-deployments
-      image: quay.io/konflux-ci/release-service-utils@sha256:85eef5b03d40aac1abba9ca70feb20a4272fc6e0c77c60586edbc50ebbb78111
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 512Mi

@@ -129,7 +129,7 @@ spec:
 
   steps:
     - name: sign-and-push-to-internal-oci
-      image: quay.io/konflux-ci/release-service-utils@sha256:d08c7360cad11ec8c52b6b606de68fd766bb592466e360c45d4ed8334aafe6a3
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       securityContext:
         runAsUser: 1001
       computeResources:

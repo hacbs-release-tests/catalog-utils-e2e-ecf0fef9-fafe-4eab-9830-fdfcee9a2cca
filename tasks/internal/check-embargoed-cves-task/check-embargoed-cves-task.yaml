@@ -52,7 +52,7 @@ spec:
       runAsUser: 1001
   steps:
     - name: check-embargoed-cves
-      image: quay.io/konflux-ci/release-service-utils@sha256:891c755bcf6ad93dfe62c83b4653b1a2ec90f02826b0e06396a8f58360ec15d3
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 256Mi

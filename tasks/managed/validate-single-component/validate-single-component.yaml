@@ -107,7 +107,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: validate-single-component
-      image: quay.io/konflux-ci/release-service-utils@sha256:cc50df93a8164f4fce80ee8b806abecc94693fab712d3c33bd54c0ad8cd34058
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 64Mi

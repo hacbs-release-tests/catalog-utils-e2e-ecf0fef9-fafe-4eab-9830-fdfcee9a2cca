@@ -159,7 +159,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: create-pyxis-image
-      image: quay.io/konflux-ci/release-service-utils@sha256:436b54bee56d4cee1a1c635784f6b0fcb676399f974fecfbb1506d25bace4b40
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 3584Mi

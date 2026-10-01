@@ -158,7 +158,7 @@ spec:
           value: $(params.caCertPath)
     - name: collect-tpa-params
       image:
-        quay.io/konflux-ci/release-service-utils@sha256:2ae61d5886887b230860934bfc7719453e44bc8882fab5ad84a483a720c5763d
+        quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 192Mi

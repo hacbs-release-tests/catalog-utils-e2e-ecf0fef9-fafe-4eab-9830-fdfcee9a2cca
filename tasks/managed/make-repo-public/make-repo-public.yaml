@@ -122,7 +122,7 @@ spec:
         - name: caCertPath
           value: $(params.caCertPath)
     - name: make-repo-public
-      image: quay.io/konflux-ci/release-service-utils@sha256:67bb57a671d7e1b8d51ee07cefcca4ac46db02b8c3a9ee8fad60fb9365aab324
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:6b2e694bdea25d9f297d4a5bdcddb692e4e8d25ed7c4d1fda0ac2b84baec1a39
       computeResources:
         limits:
           memory: 256Mi
